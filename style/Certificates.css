@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Itim&family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+
+
+body{
+    background-image: url("../img/bgcr.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+main{
+    display: flex;
+    width: auto;
+    margin-top: 2rem;
+    justify-content: center;
+    
+
+    .cer-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+      
+        gap: 20px; 
+    }
+    .con-cer{
+        display: flex;
+        justify-content: center;
+    }
+    .con-cer-text{
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px 10px 0px;
+    }
+    .con-cer-card{
+        width: 250px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .con-cer-text h1{
+        text-transform: uppercase;
+        color: #891012;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-size: 45px;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 5px;
+        font-style: normal;
+    }
+    .con-cer-text p{
+        text-align: center;
+        color: #891012;
+        font-size: 28px;
+        font-family: "Mitr", sans-serif;
+        font-weight: 500;
+    }
+    .cer-img img{
+        margin-bottom: 10px;
+        width: 250px;
+        height: 150px;
+        box-shadow: 0 0 6px;
+        
+        
+   
+    }
+
+    .cer-box-text h3{
+        margin-left: 10px;
+        text-indent: 13px;
+        font-family: "Itim", cursive;
+        font-size: 17px;
+        font-weight: 100;
+    }
+
+
+}
+.cer-line{
+    position: absolute;
+    width: 250px;
+    height: 150px;
+   
+}
+.con-cer-card:hover .cer-line{
+    
+    border-bottom: 7px solid #891012;
+    border-radius: 5px;
+}
+
+.cer-box{
+
+    animation: Sopacity 2.5s ease-out;
+
+}
+.con-cer-card:hover img{
+    
+    transform: scale(1.2);
+    transition: transform 0.75s ease-out;
+}
+.con-cer-text i{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 315px;
+    color: #8d8d8d;
+    z-index: -1;
+    
+}
+
+
+
+
+@keyframes Sopacity{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

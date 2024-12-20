@@ -1,0 +1,205 @@
+:root{
+
+    --size-img:130px
+}
+
+@media screen and (max-width:1590px) {
+    nav .container-menu{
+        width: 90px;
+    }
+    nav .en {
+        margin-top:-5px;
+        margin-left: -8px;
+        width: 57px;
+        height: 60px;
+    }
+    nav .profile{
+        border: 3px solid orange;
+        width: 50px;
+        height: 50px;
+    
+    }
+    main.main-per{
+        margin-top: 0px;
+    }
+    
+    nav .con-logo{
+        display: none;
+    }
+    nav .logo-uni{
+        display: none;
+    }
+    nav .tarbar a{
+        display: none;
+    }
+    nav .tarbar li{
+        margin: 15px 0px;
+    }
+    nav .con-tapbar{
+        margin-top: 10px;
+    }
+    div .modal-text p{
+        margin: 0;
+    }
+    #modal-perf {
+        width: 1030px;
+        height: 780px;
+        margin-top: 50px;
+    }
+    div .cer-control{
+        margin-left: 10px;
+   }
+}
+
+@media screen and (max-width:1200px) {
+    .main-about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .con-perf{
+        justify-content: center;
+    }
+    div .modal-text p{
+        margin: 0;
+    }
+    #modal-perf {
+        width: 630px;
+        height: auto;
+        margin: 50px 0
+    }
+    div .cer-control{
+        margin-left: auto;
+   }
+   
+    
+}
+@media screen and (max-width:920px) {
+    .main-about{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    main.cer-box {
+        gap: 0;
+       }
+}
+
+@media screen and (max-width:480px) {
+    nav{
+        position: sticky;
+        box-shadow: none;
+        top:0;
+       
+    }
+    div .container{
+        margin-left: auto;
+    }
+    main.main-per{
+        margin-top: 40px;
+    }
+    nav .con-profile{
+        display: none;
+        
+    }
+    nav .tarbar{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    nav .container-menu{
+        width: 100vh;
+        height: 70px;
+        padding:0
+    }
+    nav .con-tapbar {
+        margin: 0 auto;
+        align-items: center;
+    }
+    nav .tarbar li{
+        margin: 13px 6px;
+        padding: 10px 20px 10px 20px;
+    }
+    main .con-text h2{
+        margin-bottom: 25px;
+    }
+    main .con-text{
+        margin-top: 60px;
+        margin-bottom: 10px;
+    } 
+    main .his-text{
+        padding: 0;
+    }
+    .main-about{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .group-box1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container{
+        margin: 0;
+        width: auto;
+
+    }
+    div .con-perf-card{
+        margin: 20px auto;
+    }
+    div .perf-text h1{
+        font-size:34px ;
+    }
+    div .fa-gear{
+        margin-left: 280px;
+    }
+    main .main-per{
+        padding-top: 0;
+    }
+    .r-con-about {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-about .con-history{
+        margin: 0 0 0 0;
+    }
+    .main-about .his-mini-img,.main-about .his-img img{
+        width: var(--size-img);
+        height: var(--size-img);
+    }
+    .main-about .his-img h1{
+        font-size: 35px;
+        padding: 45px 35px 45px 0;
+    }
+    .main-about .his-img p{
+        font-size: 16px;
+        padding-top: 76px;
+        padding-right: 36px
+    }
+    .main-about .his-text,.main-about .con-history {
+        width: 90%;
+        margin: 0 15px;
+    }
+    div .modal-text p{
+        margin: 0;
+    }
+    #modal-perf {
+        width: auto;
+        height: auto;
+        margin: 50px 0
+    }
+    main .con-cer-text h1{
+        margin-top: 50px;
+    }
+    div .con-loader{
+        margin-left: 0;
+        width:100%;
+    }
+    
+   
+
+}
+@media screen and (max-height:900px) {
+    .main-about{
+        margin-top: 30px;
+    }
+}

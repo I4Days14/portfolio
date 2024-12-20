@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.size-console{
+
+    position: relative;
+
+    height: 100vh;  
+    
+
+}
+body{
+    background-color: #ebebebde;
+
+}
+.container{
+    display: none;
+    margin-left: clamp(0px, 15vw, 300px);
+    position: absolute;
+    width: calc(100% - 300px);
+    z-index: 0;
+
+
+}
